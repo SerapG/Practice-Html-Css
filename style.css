@@ -101,16 +101,16 @@
 }
 
 #anamenu ul a:link{
-    color: red;
+    color: rgb(97, 5, 5);
 
 }
 
 #anamenu ul a:visited{
-    color: palevioletred;
+    color: rgb(176, 54, 129);
 }
 
 #anamenu ul a:hover{
-    color: gray;
+    color: rgb(9, 108, 62);
     text-decoration: underline;
 }
 #anamenu ul a:active{
