@@ -13,4 +13,106 @@
     min-height: 600px;
     margin: auto;
     padding: auto;;
+    position: relative;
+    top: 20px;
+}
+/*Banner*/
+
+#banner{
+    width: 900px;
+    border-style: dotted;
+    border-width: 1px;
+    background-color: palevioletred;
+    min-height: 100px;
+    margin: auto;
+
+    
+}
+/*Logo*/
+
+#logo{
+    width: 100px;
+    min-height: 100px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    float: left;
+}
+/*Sosyal Medya Iconları*/
+#sosyal{
+    width: 180px;
+    min-height: 40px;
+    float: right;
+    position: relative;
+    top: 40px;
+    right: 10px;
+}
+#icon{
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+/*Twitter iconu*/
+#tw{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+}
+/*Kişisel Fotoğraf*/
+#me{
+    width: 80px;
+    height: 80px;
+   
+}
+/*Ana Menü*/
+#anamenu{
+    width: 500px;
+    height: 50px;
+    border-style: dotted;
+    border-width: 1px;
+    background-color: bisque;
+    margin: auto;
+}
+#anamenu ul{
+    list-style-type: none;
+
+}
+#anamenu ul li{
+    width: 90px;
+    border-style: solid;
+    border-color: seagreen;
+
+    border-radius: 8px;
+    border-width: 3px;
+    float: left;
+    position: relative;
+    margin: 5px;
+    left: 5px;
+    padding: 5px;
+    text-align: center;
+
+}
+#anamenu ul a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: red;
+}
+
+#anamenu ul a:link{
+    color: red;
+
+}
+
+#anamenu ul a:visited{
+    color: palevioletred;
+}
+
+#anamenu ul a:hover{
+    color: gray;
+    text-decoration: underline;
+}
+#anamenu ul a:active{
+    color: red;
 }
